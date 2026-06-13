@@ -1,19 +1,15 @@
 {
-  "name": "emlak_uygulama_backend",
+  "name": "emlak-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "Emlak otomasyonu yapay zeka backend sistemi",
+  "main": "sunucu.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node sunucu.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "@google/genai": "^2.8.0",
-    "cors": "^2.8.6",
-    "express": "^5.2.1"
+    "@google/genai": "^0.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
   }
 }
